@@ -1892,11 +1892,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\cpp\\EmploeeProductivityApi\\EmployeeAuthtorizationApi\\EmployeeAuthtorizationApi.csproj",
+      "projectUniqueName": "D:\\EmployeeProductivity\\EmploeeProductivityApi\\EmployeeAuthtorizationApi\\EmployeeAuthtorizationApi.csproj",
       "projectName": "EmployeeAuthtorizationApi",
-      "projectPath": "D:\\cpp\\EmploeeProductivityApi\\EmployeeAuthtorizationApi\\EmployeeAuthtorizationApi.csproj",
+      "projectPath": "D:\\EmployeeProductivity\\EmploeeProductivityApi\\EmployeeAuthtorizationApi\\EmployeeAuthtorizationApi.csproj",
       "packagesPath": "C:\\Users\\sartu\\.nuget\\packages\\",
-      "outputPath": "D:\\cpp\\EmploeeProductivityApi\\EmployeeAuthtorizationApi\\obj\\",
+      "outputPath": "D:\\EmployeeProductivity\\EmploeeProductivityApi\\EmployeeAuthtorizationApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1919,8 +1919,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\cpp\\EmploeeProductivityApi\\EmployeesContext\\EmployeesContext.csproj": {
-              "projectPath": "D:\\cpp\\EmploeeProductivityApi\\EmployeesContext\\EmployeesContext.csproj"
+            "D:\\EmployeeProductivity\\EmploeeProductivityApi\\EmployeesContext\\EmployeesContext.csproj": {
+              "projectPath": "D:\\EmployeeProductivity\\EmploeeProductivityApi\\EmployeesContext\\EmployeesContext.csproj"
             }
           }
         }

@@ -32,7 +32,7 @@ namespace EmployeeAuthtorizationApi.Controllers
             if (user.IsDirector)
                 token = await CreateDirectorAsync(user);
             else
-                token = await CreateUnregisteredEmployeeAsync(user);
+                token = await CreateUnregisteredAsync(user);
 
             return Ok(token);
         }
@@ -75,13 +75,6 @@ namespace EmployeeAuthtorizationApi.Controllers
             return Ok(new { Token = newToken });
         }
 
-        [Authorize]
-        [HttpGet("GetAccess")]
-        public IActionResult GetAccess()
-        {
-            return Ok();
-        }
-
         private async Task<string> CreateDirectorAsync(UserDto user)
         {
             {
@@ -111,34 +104,34 @@ namespace EmployeeAuthtorizationApi.Controllers
                 return director.Token;
             }
         }
-        private async Task<string> CreateUnregisteredEmployeeAsync(UserDto user)
+        private async Task<string> CreateUnregisteredAsync(UserDto user)
         {
             int depId = _context.Departments.Where(d => d.DepartmentName.ToLower() == user.Department.ToLower()).First().Id;
-            UnregisteredEmployee employee = new UnregisteredEmployee
+            Unregistered userEmployee = new Unregistered
             {
-                Id = _context.Set<UnregisteredEmployee>().Count() + 1,
+                Id = _context.Set<User>().Count() + 1,
                 FirstName = user.FirstName,
                 LastName = user.LastName,
                 Password = Encryptor.EncodePasswordToBase64(user.Password),
                 Token = Encryptor.GenerateJwtToken(user.Email, new Employee().Role, _configuration),
                 Email = user.Email,
-                DepartmentId = depId,
-                DirectorId = _context.Directors.Where(d => d.DepartmentId == depId).First().Id
+                DepartmentId = depId
             };
+
             await Task.Run(() =>
             {
-                _context.UnregisteredEmployees.Add(employee);
+                _context.UnregisteredEmployees.Add(userEmployee);
                 _context.SaveChanges();
             });
 
-            return employee.Token;
+            return userEmployee.Token;
         }
         private Director CheckUser(UserInfo user, List<Director> users)
         {
             Director goodUser = null;
             foreach (var e in users)
             {
-                if (e.Email == user.login && Encryptor.DecodeFrom64(e.Password) == user.password)
+                if (e.Email == user.email && Encryptor.DecodeFrom64(e.Password) == user.password)
                 {
                     goodUser = e;
                     break;
@@ -151,7 +144,7 @@ namespace EmployeeAuthtorizationApi.Controllers
             Employee goodUser = null;
             foreach (var e in users)
             {
-                if (e.Email == user.login && Encryptor.DecodeFrom64(e.Password) == user.password)
+                if (e.Email == user.email && Encryptor.DecodeFrom64(e.Password) == user.password)
                 {
                     goodUser = e;
                     break;
@@ -160,5 +153,5 @@ namespace EmployeeAuthtorizationApi.Controllers
             return goodUser;
         }
     }
-    public record UserInfo(string login, string password);
+    public record UserInfo(string email, string password);
 }

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\cpp\\EmploeeProductivityApi\\EmployeeProductivity.Core\\EmployeeProductivity.Core.csproj",
+      "projectUniqueName": "D:\\EmployeeProductivity\\EmploeeProductivityApi\\EmployeeProductivity.Core\\EmployeeProductivity.Core.csproj",
       "projectName": "EmployeeProductivity.Core",
-      "projectPath": "D:\\cpp\\EmploeeProductivityApi\\EmployeeProductivity.Core\\EmployeeProductivity.Core.csproj",
+      "projectPath": "D:\\EmployeeProductivity\\EmploeeProductivityApi\\EmployeeProductivity.Core\\EmployeeProductivity.Core.csproj",
       "packagesPath": "C:\\Users\\sartu\\.nuget\\packages\\",
-      "outputPath": "D:\\cpp\\EmploeeProductivityApi\\EmployeeProductivity.Core\\obj\\",
+      "outputPath": "D:\\EmployeeProductivity\\EmploeeProductivityApi\\EmployeeProductivity.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

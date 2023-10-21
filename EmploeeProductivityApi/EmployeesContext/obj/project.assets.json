@@ -1143,11 +1143,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\cpp\\EmploeeProductivityApi\\EmployeesContext\\EmployeesContext.csproj",
+      "projectUniqueName": "D:\\EmployeeProductivity\\EmploeeProductivityApi\\EmployeesContext\\EmployeesContext.csproj",
       "projectName": "EmployeesContext",
-      "projectPath": "D:\\cpp\\EmploeeProductivityApi\\EmployeesContext\\EmployeesContext.csproj",
+      "projectPath": "D:\\EmployeeProductivity\\EmploeeProductivityApi\\EmployeesContext\\EmployeesContext.csproj",
       "packagesPath": "C:\\Users\\sartu\\.nuget\\packages\\",
-      "outputPath": "D:\\cpp\\EmploeeProductivityApi\\EmployeesContext\\obj\\",
+      "outputPath": "D:\\EmployeeProductivity\\EmploeeProductivityApi\\EmployeesContext\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

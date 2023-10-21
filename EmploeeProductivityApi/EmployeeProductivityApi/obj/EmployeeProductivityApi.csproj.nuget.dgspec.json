@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\cpp\\EmploeeProductivityApi\\EmployeeProductivityApi\\EmployeeProductivityApi.csproj": {}
+    "D:\\EmployeeProductivity\\EmploeeProductivityApi\\EmployeeProductivityApi\\EmployeeProductivityApi.csproj": {}
   },
   "projects": {
-    "D:\\cpp\\EmploeeProductivityApi\\EmployeeProductivityApi\\EmployeeProductivityApi.csproj": {
+    "D:\\EmployeeProductivity\\EmploeeProductivityApi\\EmployeeProductivityApi\\EmployeeProductivityApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\cpp\\EmploeeProductivityApi\\EmployeeProductivityApi\\EmployeeProductivityApi.csproj",
+        "projectUniqueName": "D:\\EmployeeProductivity\\EmploeeProductivityApi\\EmployeeProductivityApi\\EmployeeProductivityApi.csproj",
         "projectName": "EmployeeProductivityApi",
-        "projectPath": "D:\\cpp\\EmploeeProductivityApi\\EmployeeProductivityApi\\EmployeeProductivityApi.csproj",
+        "projectPath": "D:\\EmployeeProductivity\\EmploeeProductivityApi\\EmployeeProductivityApi\\EmployeeProductivityApi.csproj",
         "packagesPath": "C:\\Users\\sartu\\.nuget\\packages\\",
-        "outputPath": "D:\\cpp\\EmploeeProductivityApi\\EmployeeProductivityApi\\obj\\",
+        "outputPath": "D:\\EmployeeProductivity\\EmploeeProductivityApi\\EmployeeProductivityApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -34,8 +34,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\cpp\\EmploeeProductivityApi\\EmployeesContext\\EmployeesContext.csproj": {
-                "projectPath": "D:\\cpp\\EmploeeProductivityApi\\EmployeesContext\\EmployeesContext.csproj"
+              "D:\\EmployeeProductivity\\EmploeeProductivityApi\\EmployeesContext\\EmployeesContext.csproj": {
+                "projectPath": "D:\\EmployeeProductivity\\EmploeeProductivityApi\\EmployeesContext\\EmployeesContext.csproj"
               }
             }
           }
@@ -112,14 +112,14 @@
         }
       }
     },
-    "D:\\cpp\\EmploeeProductivityApi\\EmployeesContext\\EmployeesContext.csproj": {
+    "D:\\EmployeeProductivity\\EmploeeProductivityApi\\EmployeesContext\\EmployeesContext.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\cpp\\EmploeeProductivityApi\\EmployeesContext\\EmployeesContext.csproj",
+        "projectUniqueName": "D:\\EmployeeProductivity\\EmploeeProductivityApi\\EmployeesContext\\EmployeesContext.csproj",
         "projectName": "EmployeesContext",
-        "projectPath": "D:\\cpp\\EmploeeProductivityApi\\EmployeesContext\\EmployeesContext.csproj",
+        "projectPath": "D:\\EmployeeProductivity\\EmploeeProductivityApi\\EmployeesContext\\EmployeesContext.csproj",
         "packagesPath": "C:\\Users\\sartu\\.nuget\\packages\\",
-        "outputPath": "D:\\cpp\\EmploeeProductivityApi\\EmployeesContext\\obj\\",
+        "outputPath": "D:\\EmployeeProductivity\\EmploeeProductivityApi\\EmployeesContext\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

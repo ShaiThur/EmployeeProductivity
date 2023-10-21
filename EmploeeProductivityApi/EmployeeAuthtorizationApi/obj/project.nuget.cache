@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "G95ThDpCEAwn6tOawS/t1Vvklf2O79mcEyIaVHZ3721BjuCLpaba9RMq2KttNv9dpfLbCY7hrg4GOyp2ApeKUA==",
+  "dgSpecHash": "SGzswaJye3ZEY+ZfhAgZwhCwHSYQdqHQTo3E5Qb8ZsGcN6Sirej0lqR1OML5MybwcwAQTYB13w123B0JQ1uKnA==",
   "success": true,
-  "projectFilePath": "D:\\cpp\\EmploeeProductivityApi\\EmployeeAuthtorizationApi\\EmployeeAuthtorizationApi.csproj",
+  "projectFilePath": "D:\\EmployeeProductivity\\EmploeeProductivityApi\\EmployeeAuthtorizationApi\\EmployeeAuthtorizationApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sartu\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\sartu\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

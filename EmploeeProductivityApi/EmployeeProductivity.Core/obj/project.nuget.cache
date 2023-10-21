@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CxAnV/S6Ru89km01J++wnrmNjqA7FQK02xunLzmqTUuid/oT3esBrwSu+Fb+pW3CTuqPEGb9HL3hcvfcLSXeHw==",
+  "dgSpecHash": "5iXp2wXM54QHghYt3VY0fi6Q6oCjYM6nyXdAaSfBD6oqIjH5c8uX3s6xF8MZ/bKAwApaA3RMkalYaBHFQ/o2xQ==",
   "success": true,
-  "projectFilePath": "D:\\cpp\\EmploeeProductivityApi\\EmployeeProductivity.Core\\EmployeeProductivity.Core.csproj",
+  "projectFilePath": "D:\\EmployeeProductivity\\EmploeeProductivityApi\\EmployeeProductivity.Core\\EmployeeProductivity.Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

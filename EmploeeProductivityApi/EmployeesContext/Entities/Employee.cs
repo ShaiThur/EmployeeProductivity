@@ -10,6 +10,6 @@ namespace EmployeeProductivity.Application.Entities
     {
         public int DirectorId { get; set; }
         public string Role { get; } = "Employee";
-        public double Score { get; set; }
+        public int ScoreId { get; set; }
     }
 }

@@ -19,6 +19,7 @@ namespace EmployeesContext
         public DbSet<Employee> Employees { get; set; }
         public DbSet<Department> Departments { get; set; }
         public DbSet<Operation> Operations { get; set; }
-        public DbSet<UnregisteredEmployee> UnregisteredEmployees { get; set; }
+        public DbSet<Unregistered> UnregisteredEmployees { get; set; }
+        public DbSet<Score> Scores { get; set; }
     }
 }
