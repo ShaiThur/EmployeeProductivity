@@ -132,10 +132,15 @@ namespace EmployeeProductivityApi.Migrations
                         .HasColumnType("timestamp with time zone");
 
                     b.Property<string>("Description")
-                        .IsRequired()
                         .HasColumnType("text");
 
+                    b.Property<int>("Difficult")
+                        .HasColumnType("integer");
+
                     b.Property<int>("DirectorId")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("EmployeeId")
                         .HasColumnType("integer");
 
                     b.Property<string>("OperationName")

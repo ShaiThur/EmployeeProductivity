@@ -1,3 +1,4 @@
+using EmployeeProductivity.Infrustructure.RatingCreators;
 using EmployeesContext;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;

@@ -14,6 +14,9 @@ namespace EmployeeProductivityApi.Controllers
     [ApiController]
     public class EmployeeController : WebApiController
     {
+        delegate void EmployeeHandler(Operation operation);
+        event EmployeeHandler Notify;
+
         public EmployeeController(DataContext context, IMapper mapper) : base(context, mapper) { }
         [HttpGet]
         [Route("/myTasks")]
@@ -33,16 +36,13 @@ namespace EmployeeProductivityApi.Controllers
         }
 
         [HttpPost]
-        [Route("/solve")]
-        public IActionResult SolveTask([FromBody] OperationDto operation)
+        [Route("/startSolving")]
+        public IActionResult StartSolvingOperation([FromBody] OperationDto operation)
         {
             Employee employee = _context.Employees.Where(e => e.Email == User.Identity.Name).FirstOrDefault();
             Score score = _context.Scores.Where(sc => sc.EmployeeId == employee.Id).FirstOrDefault();
-            if (DateTime.UtcNow < operation.Deadline)
-            {
-                score.DayScore += 1;
-            }
-
+            Operation op = _mapper.Map<Operation>(operation);
+            Notify.Invoke(op);
             return Ok();
         }
     }
