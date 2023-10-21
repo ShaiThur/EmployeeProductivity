@@ -18,6 +18,10 @@ namespace EmployeesContext.Helpers
             CreateMap<User, UserDto>();
             CreateMap<Operation, OperationDto>();
             CreateMap<Department, DepartmentDto>();
+
+            CreateMap<UserDto, User>();
+            CreateMap<OperationDto,  Operation>();
+            CreateMap<DepartmentDto, Department>();
         }
     }
 }

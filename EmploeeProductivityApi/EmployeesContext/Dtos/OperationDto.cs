@@ -9,8 +9,9 @@ namespace EmployeesContext.Dtos
     public class OperationDto
     {
         public string OperationName { get; set; } = null!;
+        public int ScoreSum { get; set; }
         public string OperationDescription { get; set; } = null!;
-        public DayOfWeek Validity { get; set; }
+        public DateTime CreationDate { get; set; }
         public DateTime Deadline { get; set; }
     }
 }

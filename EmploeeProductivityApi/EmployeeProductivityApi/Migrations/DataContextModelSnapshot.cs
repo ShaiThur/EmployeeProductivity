@@ -125,6 +125,9 @@ namespace EmployeeProductivityApi.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
+                    b.Property<DateTime>("CreationDate")
+                        .HasColumnType("timestamp with time zone");
+
                     b.Property<DateTime>("Deadline")
                         .HasColumnType("timestamp with time zone");
 
@@ -135,15 +138,9 @@ namespace EmployeeProductivityApi.Migrations
                     b.Property<int>("DirectorId")
                         .HasColumnType("integer");
 
-                    b.Property<bool>("IsAccessed")
-                        .HasColumnType("boolean");
-
                     b.Property<string>("OperationName")
                         .IsRequired()
                         .HasColumnType("text");
-
-                    b.Property<int>("Validity")
-                        .HasColumnType("integer");
 
                     b.HasKey("Id");
 

@@ -11,10 +11,7 @@ namespace EmployeesContext
 {
     public class DataContext : DbContext
     {
-        public DataContext(DbContextOptions options) : base(options)
-        {
-            Database.Migrate();   
-        }
+        public DataContext(DbContextOptions options) : base(options) { }
         public DbSet<Director>  Directors{ get; set; }
         public DbSet<Employee> Employees { get; set; }
         public DbSet<Department> Departments { get; set; }

@@ -52,8 +52,7 @@ namespace EmployeeAuthtorizationApi
             {
                 Id = 1,
                 Deadline = DateTime.UtcNow.AddDays(1),
-                IsAccessed = false,
-                Validity = DayOfWeek.Saturday,
+                CreationDate = DateTime.UtcNow,
                 DirectorId = 1,
                 Description = "Test1",
                 OperationName = "Test1",
@@ -62,8 +61,7 @@ namespace EmployeeAuthtorizationApi
             {
                 Id = 2,
                 Deadline = DateTime.UtcNow.AddDays(1),
-                IsAccessed = false,
-                Validity = DayOfWeek.Saturday,
+                CreationDate = DateTime.UtcNow,
                 DirectorId = 1,
                 Description = "Test2",
                 OperationName = "Test2",
@@ -72,8 +70,7 @@ namespace EmployeeAuthtorizationApi
             {
                 Id = 3,
                 Deadline = DateTime.UtcNow.AddDays(1),
-                IsAccessed = false,
-                Validity = DayOfWeek.Saturday,
+                CreationDate = DateTime.UtcNow,
                 DirectorId = 1,
                 Description = "Test3",
                 OperationName = "Test3",

@@ -14,14 +14,10 @@ namespace EmployeeProductivityApi.Controllers
     [ApiController]
     public class EmployeeController : WebApiController
     {
-        private readonly IMapper _mapper;
-        public EmployeeController(DataContext context, IMapper mapper) : base(context)
-        {
-            _mapper = mapper;
-        }
+        public EmployeeController(DataContext context, IMapper mapper) : base(context, mapper) { }
         [HttpGet]
         [Route("/myTasks")]
-        public IActionResult ShowOperations()
+        public IActionResult GetOperations()
         {
             Employee employee = _context.Employees.Where(e => e.Email == User.Identity.Name).FirstOrDefault();
             Director director = _context.Directors.Where(d => d.Id == employee.DirectorId).FirstOrDefault();

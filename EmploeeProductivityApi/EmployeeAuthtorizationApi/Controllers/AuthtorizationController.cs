@@ -106,7 +106,7 @@ namespace EmployeeAuthtorizationApi.Controllers
         }
         private async Task<string> CreateUnregisteredAsync(UserDto user)
         {
-            int depId = _context.Departments.Where(d => d.DepartmentName.ToLower() == user.Department.ToLower()).First().Id;
+            int depId = _context.Departments.Where(d => d.DepartmentName.ToLower() == user.Department.ToLower()).FirstOrDefault().Id;
             Unregistered userEmployee = new Unregistered
             {
                 Id = _context.Set<User>().Count() + 1,
