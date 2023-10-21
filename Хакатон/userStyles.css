@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-shadow: none;
+}
+
+body {
+  font: 12px/18px Tahoma, Verdana, sans-serif;
+  background-color: #efefef;
+  color: #999;
+}
+.container {
+  margin: 50px auto 0px auto; /* отступаем сверху 50px и выравниваем по центру */
+  width: 100%;
+}
+
+.container .items {
+  display: flex;
+  width: 90%;
+  margin-left: 5%;
+  flex-direction: column;
+  justify-content: start;
+  box-shadow: 12px 0 15px -4px rgba(0, 0, 0, 0.5),
+    -12px 0 8px -4px rgba(0, 0, 0, 0.5);
+  background-color: gray;
+  height: 100vh;
+}
+.container .items .data {
+  padding: 50px 25px 15px 25px;
+  width: 100%;
+  margin-top: -4%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 20vh;
+  color: white;
+  width: 20vw;
+}
+
+.items .data i {
+  font-size: 30px;
+}
+
+.rectangle {
+  background: #7f9db9;
+  height: 50px;
+  margin-top: -2%;
+  width: 91vw;
+  left: -15px;
+  position: relative;
+  float: left;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 1);
+  z-index: 100; /* показываем над всеми элементами */
+
+  font-size: 30px;
+  line-height: 40px;
+  color: #fff;
+  padding-top: 6px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.triangles {
+  margin-top: -3.5%;
+}
+
+.triangle-l {
+  border-color: transparent #7d90a3 transparent transparent;
+  border-style: solid;
+  border-width: 15px;
+  height: 0px;
+  width: 0px;
+  position: relative;
+  left: -30px;
+  top: 65px;
+  z-index: -1;
+}
+.triangle-r {
+  /* уголочек под зголовком справа */
+  border-color: transparent transparent transparent #7d90a3;
+  border-style: solid;
+  border-width: 15px;
+  height: 0px;
+  width: 0px;
+  position: relative;
+  left: 92vw;
+  margin-left: -50px;
+  top: 35px;
+  z-index: -1;
+}
