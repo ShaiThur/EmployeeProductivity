@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Две половины</title>
+    <script src="checkbox.js"></script>
+  </head>
+  <body>
+    <div class="container" id="1">
+      <h1 class="half signIn" id="leftHalf">ВХОД</h1>
+      <h1 class="half reg" id="rightHalf">РЕГИСТРАЦИЯ</h1>
+      <div class="items">
+        <div class="signInItems">
+          <input
+            type="text"
+            id="myInput"
+            name="signInWebSite"
+            placeholder="Логин"
+          />
+          <input
+            type="text"
+            id="myInput"
+            name="signInWebSite"
+            placeholder="Пароль"
+          />
+          <button id="btn_sign" class="btn_signIn">Войти</button>
+        </div>
+        <div class="regItems">
+          <input type="text" name="registration" placeholder="Логин" />
+          <input type="text" name="registration" placeholder="Пароль" />
+          <input
+            id="userName_reg"
+            type="text"
+            name="registration"
+            placeholder="Имя"
+          />
+          <input
+            id="userSurname_reg"
+            type="text"
+            name="registration"
+            placeholder="Фамилия"
+          />
+          <div class="checkbox">
+            <input type="checkbox" id="input_checkbox" name="scales" checked />
+            <label for="scales" id="checkbox_label">Я директор</label>
+          </div>
+          <select
+            id="select"
+            name="Name_of_list_box"
+            size="Number_of_options"
+          ></select>
+          <input
+            type="text"
+            id="myInput"
+            name="registration"
+            placeholder="Отдел"
+          />
+          <button id="btn_reg" class="btn_registration">
+            Зарегистрироваться
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
