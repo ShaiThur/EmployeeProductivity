@@ -15,7 +15,7 @@
       <div class="items" id="containerItems">
         <div class="userData"></div>
         <div class="geometrisi">
-          <div class="rectangle">Создать задачу</div>
+          <div class="rectangle">Задания</div>
           <div class="triangles">
             <div class="triangle-l"></div>
             <div class="triangle-r"></div>
@@ -39,6 +39,16 @@
           <textarea class="break" name="data" cols="40" rows="7"></textarea>
           <h2>Срок сдачи</h2>
           <input name="data" , type="date" />
+        </div>
+        <button class="send" id="sendTask">Отправить</button>
+      </div>
+    </div>
+    <div id="Modal" class="myModal">
+      <div class="myModal-content">
+        <span class="close">&times;</span>
+        <div>
+          <h3>Ваша оценка</h3>
+          <input type="numeric" />
         </div>
         <button class="send" id="sendTask">Отправить</button>
       </div>

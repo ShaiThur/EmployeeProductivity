@@ -8,6 +8,7 @@ var userData = document.getElementsByClassName("userData")[0];
 const userName = window.sessionStorage.getItem("userName");
 const userSurname = window.sessionStorage.getItem("userSurname");
 let number_name = 0;
+var numeric_modal = document.getElementById("Modal");
 
 userData.innerHTML =
   "<i class='fa-solid fa-user'></i><h2 calss=`userName`>Имя:" +
@@ -46,11 +47,11 @@ send.onclick = function () {
   CreateDiv(div);
   dateInput = userInput[2].value;
   div.innerHTML =
-    "<i class='fa-solid fa-check'></i><h3>Название:" +
+    "<i class='fa-regular fa-clock'></i><h3>Срок сдачи: " +
     userInput[0].value +
-    "</h3><h3>Срок сдачи:" +
+    "</h3><h3>Название: " +
     dateInput +
-    "</h3><button>Закрыть</button>";
+    "</h3><button id=`btn_close`><h2>Закрыть задание</h2></button>";
   div.id = number_name;
   div.classList.add("givenTask");
   window.sessionStorage.setItem(
@@ -60,6 +61,10 @@ send.onclick = function () {
   items.appendChild(div);
   modal.style.display = "none";
   number_name++;
+
+  div.getElementById("btn_close").onclick = function () {
+    numeric_modal.style.display = "block";
+  };
 
   div.onclick = function () {
     modal.style.display = "block";
