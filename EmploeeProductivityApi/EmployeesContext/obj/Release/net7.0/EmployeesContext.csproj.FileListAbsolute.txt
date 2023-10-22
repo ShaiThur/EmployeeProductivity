@@ -1,0 +1,14 @@
+C:\Users\arsko\OneDrive\Рабочий стол\WEB\Практика\EmployeeProductivity\EmploeeProductivityApi\EmployeesContext\bin\Release\net7.0\EmployeesContext.deps.json
+C:\Users\arsko\OneDrive\Рабочий стол\WEB\Практика\EmployeeProductivity\EmploeeProductivityApi\EmployeesContext\bin\Release\net7.0\EmployeesContext.runtimeconfig.json
+C:\Users\arsko\OneDrive\Рабочий стол\WEB\Практика\EmployeeProductivity\EmploeeProductivityApi\EmployeesContext\bin\Release\net7.0\EmployeesContext.dll
+C:\Users\arsko\OneDrive\Рабочий стол\WEB\Практика\EmployeeProductivity\EmploeeProductivityApi\EmployeesContext\bin\Release\net7.0\EmployeesContext.pdb
+C:\Users\arsko\OneDrive\Рабочий стол\WEB\Практика\EmployeeProductivity\EmploeeProductivityApi\EmployeesContext\obj\Release\net7.0\EmployeesContext.csproj.AssemblyReference.cache
+C:\Users\arsko\OneDrive\Рабочий стол\WEB\Практика\EmployeeProductivity\EmploeeProductivityApi\EmployeesContext\obj\Release\net7.0\EmployeesContext.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arsko\OneDrive\Рабочий стол\WEB\Практика\EmployeeProductivity\EmploeeProductivityApi\EmployeesContext\obj\Release\net7.0\EmployeesContext.AssemblyInfoInputs.cache
+C:\Users\arsko\OneDrive\Рабочий стол\WEB\Практика\EmployeeProductivity\EmploeeProductivityApi\EmployeesContext\obj\Release\net7.0\EmployeesContext.AssemblyInfo.cs
+C:\Users\arsko\OneDrive\Рабочий стол\WEB\Практика\EmployeeProductivity\EmploeeProductivityApi\EmployeesContext\obj\Release\net7.0\EmployeesContext.csproj.CoreCompileInputs.cache
+C:\Users\arsko\OneDrive\Рабочий стол\WEB\Практика\EmployeeProductivity\EmploeeProductivityApi\EmployeesContext\obj\Release\net7.0\EmployeesContext.dll
+C:\Users\arsko\OneDrive\Рабочий стол\WEB\Практика\EmployeeProductivity\EmploeeProductivityApi\EmployeesContext\obj\Release\net7.0\refint\EmployeesContext.dll
+C:\Users\arsko\OneDrive\Рабочий стол\WEB\Практика\EmployeeProductivity\EmploeeProductivityApi\EmployeesContext\obj\Release\net7.0\EmployeesContext.pdb
+C:\Users\arsko\OneDrive\Рабочий стол\WEB\Практика\EmployeeProductivity\EmploeeProductivityApi\EmployeesContext\obj\Release\net7.0\EmployeesContext.genruntimeconfig.cache
+C:\Users\arsko\OneDrive\Рабочий стол\WEB\Практика\EmployeeProductivity\EmploeeProductivityApi\EmployeesContext\obj\Release\net7.0\ref\EmployeesContext.dll

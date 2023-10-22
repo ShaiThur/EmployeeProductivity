@@ -1,0 +1,12 @@
+C:\Users\arsko\OneDrive\Рабочий стол\WEB\Практика\EmployeeProductivity\EmploeeProductivityApi\EmployeeProductivity.Core\bin\Release\net7.0\EmployeeProductivity.Core.deps.json
+C:\Users\arsko\OneDrive\Рабочий стол\WEB\Практика\EmployeeProductivity\EmploeeProductivityApi\EmployeeProductivity.Core\bin\Release\net7.0\EmployeeProductivity.Core.dll
+C:\Users\arsko\OneDrive\Рабочий стол\WEB\Практика\EmployeeProductivity\EmploeeProductivityApi\EmployeeProductivity.Core\bin\Release\net7.0\EmployeeProductivity.Core.pdb
+C:\Users\arsko\OneDrive\Рабочий стол\WEB\Практика\EmployeeProductivity\EmploeeProductivityApi\EmployeeProductivity.Core\obj\Release\net7.0\EmployeeProductivity.Core.csproj.AssemblyReference.cache
+C:\Users\arsko\OneDrive\Рабочий стол\WEB\Практика\EmployeeProductivity\EmploeeProductivityApi\EmployeeProductivity.Core\obj\Release\net7.0\EmployeeProductivity.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arsko\OneDrive\Рабочий стол\WEB\Практика\EmployeeProductivity\EmploeeProductivityApi\EmployeeProductivity.Core\obj\Release\net7.0\EmployeeProductivity.Core.AssemblyInfoInputs.cache
+C:\Users\arsko\OneDrive\Рабочий стол\WEB\Практика\EmployeeProductivity\EmploeeProductivityApi\EmployeeProductivity.Core\obj\Release\net7.0\EmployeeProductivity.Core.AssemblyInfo.cs
+C:\Users\arsko\OneDrive\Рабочий стол\WEB\Практика\EmployeeProductivity\EmploeeProductivityApi\EmployeeProductivity.Core\obj\Release\net7.0\EmployeeProductivity.Core.csproj.CoreCompileInputs.cache
+C:\Users\arsko\OneDrive\Рабочий стол\WEB\Практика\EmployeeProductivity\EmploeeProductivityApi\EmployeeProductivity.Core\obj\Release\net7.0\EmployeeProductivity.Core.dll
+C:\Users\arsko\OneDrive\Рабочий стол\WEB\Практика\EmployeeProductivity\EmploeeProductivityApi\EmployeeProductivity.Core\obj\Release\net7.0\refint\EmployeeProductivity.Core.dll
+C:\Users\arsko\OneDrive\Рабочий стол\WEB\Практика\EmployeeProductivity\EmploeeProductivityApi\EmployeeProductivity.Core\obj\Release\net7.0\EmployeeProductivity.Core.pdb
+C:\Users\arsko\OneDrive\Рабочий стол\WEB\Практика\EmployeeProductivity\EmploeeProductivityApi\EmployeeProductivity.Core\obj\Release\net7.0\ref\EmployeeProductivity.Core.dll

@@ -1,4 +1,8 @@
-anychart.onDocumentReady(function () {
+var btn = document.getElementById("btn_show");
+var container = document.getElementById("container");
+
+btn.onclick = function () {
+  container.innerHTML = "";
   // set chart theme
   anychart.theme("darkBlue");
   // create column chart
@@ -10,18 +14,22 @@ anychart.onDocumentReady(function () {
   // set chart title text settings
   chart.title("Rating of workers");
 
+  fetch("https://localhost:7183/DayRating")
+    .then((response) => response.json())
+    .then((post) => {
+      const result = post;
+      var arr = [];
+      for (var key in result) {
+        if (result.hasOwnProperty(key)) {
+          arr.push([key, result[key]]);
+        }
+      }
+      series = chart.column(arr);
+      console.log(post);
+    });
+
   // create area series with passed data
-  var series = chart.column([
-    ["Rouge", "80540"],
-    ["Foundation", "94190"],
-    ["Mascara", "102610"],
-    ["Lip gloss", "110430"],
-    ["Lipstick", "128000"],
-    ["Nail polish", "143760"],
-    ["Eyebrow pencil", "170670"],
-    ["Eyeliner", "213210"],
-    ["Eyeshadows", "249980"],
-  ]);
+  var series = chart.column();
 
   // set series tooltip settings
   series.tooltip().titleFormat("{%X}");
@@ -53,4 +61,4 @@ anychart.onDocumentReady(function () {
 
   // initiate chart drawing
   chart.draw();
-});
+};

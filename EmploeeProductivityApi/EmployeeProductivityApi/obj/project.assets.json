@@ -1963,24 +1963,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\sartu\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\arsko\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\EmployeeProductivity\\EmploeeProductivityApi\\EmployeeProductivityApi\\EmployeeProductivityApi.csproj",
+      "projectUniqueName": "C:\\Users\\arsko\\OneDrive\\Рабочий стол\\WEB\\Практика\\EmployeeProductivity\\EmploeeProductivityApi\\EmployeeProductivityApi\\EmployeeProductivityApi.csproj",
       "projectName": "EmployeeProductivityApi",
-      "projectPath": "D:\\EmployeeProductivity\\EmploeeProductivityApi\\EmployeeProductivityApi\\EmployeeProductivityApi.csproj",
-      "packagesPath": "C:\\Users\\sartu\\.nuget\\packages\\",
-      "outputPath": "D:\\EmployeeProductivity\\EmploeeProductivityApi\\EmployeeProductivityApi\\obj\\",
+      "projectPath": "C:\\Users\\arsko\\OneDrive\\Рабочий стол\\WEB\\Практика\\EmployeeProductivity\\EmploeeProductivityApi\\EmployeeProductivityApi\\EmployeeProductivityApi.csproj",
+      "packagesPath": "C:\\Users\\arsko\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\arsko\\OneDrive\\Рабочий стол\\WEB\\Практика\\EmployeeProductivity\\EmploeeProductivityApi\\EmployeeProductivityApi\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\sartu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\arsko\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1988,16 +1983,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
-        "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\EmployeeProductivity\\EmploeeProductivityApi\\EmployeesContext\\EmployeesContext.csproj": {
-              "projectPath": "D:\\EmployeeProductivity\\EmploeeProductivityApi\\EmployeesContext\\EmployeesContext.csproj"
+            "C:\\Users\\arsko\\OneDrive\\Рабочий стол\\WEB\\Практика\\EmployeeProductivity\\EmploeeProductivityApi\\EmployeesContext\\EmployeesContext.csproj": {
+              "projectPath": "C:\\Users\\arsko\\OneDrive\\Рабочий стол\\WEB\\Практика\\EmployeeProductivity\\EmploeeProductivityApi\\EmployeesContext\\EmployeesContext.csproj"
             }
           }
         }
@@ -2070,7 +2064,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
       }
     }
   }
