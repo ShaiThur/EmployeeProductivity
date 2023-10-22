@@ -15,11 +15,5 @@ namespace EmployeesContext.Entities
         public int MonthScore { get; set; }
         public int TotalScore { get; set; }
         public int EmployeeId { get; set; }
-
-        public override string ToString()
-        //Это я для удобства
-        {
-            return $"id = {ScoreId}, DayScore = {DayScore}, WeekScore = {WeekScore}, MonthScore = {MonthScore}, TotalScore = {TotalScore}";
-        }
     }
 }
