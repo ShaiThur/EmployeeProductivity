@@ -20,7 +20,7 @@ namespace EmployeeProductivityApi.Controllers
 
         [HttpGet]
         [Route("/AllRating")]
-        public IActionResult GetUsersRating()
+        public JsonResult GetUsersRating()
         {
             //Director director = _context.Directors.Where(e => e.Email == User.Identity.Name).FirstOrDefault();
             //List<Employee> employees = _context.Employees.Where(e => e.DirectorId == director.Id).ToList();
@@ -32,7 +32,7 @@ namespace EmployeeProductivityApi.Controllers
             {
                 values.Add(i, request.GetEmployeesRating(i));
             }
-            return Ok(values);
+            return new JsonResult(values);
         }
 
         [HttpGet]

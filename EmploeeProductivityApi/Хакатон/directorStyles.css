@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-shadow: none;
+}
+
+body {
+  font: 12px/18px Tahoma, Verdana, sans-serif;
+  background-color: whitesmoke;
+  color: #65b7ff;
+}
+.container {
+  margin: 50px auto 0px auto; /* отступаем сверху 50px и выравниваем по центру */
+  width: 100%;
+  height: 100%;
+}
+
+.container .items {
+  display: flex;
+  width: 90%;
+  margin-left: 5%;
+  flex-direction: column;
+  justify-content: start;
+  box-shadow: 12px 0 15px -4px rgba(0, 0, 0, 0.5),
+    -12px 0 8px -4px rgba(0, 0, 0, 0.5);
+  background-color: #65b7ff;
+  height: 100vh;
+  z-index: 1;
+}
+.container .items .userData {
+  padding: 50px 25px 15px 25px;
+  width: 100%;
+  margin-top: -4%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 20vh;
+  color: white;
+  width: 20vw;
+}
+
+.items .userData i {
+  font-size: 30px;
+}
+
+.rectangle {
+  background: white;
+  height: 50px;
+  margin-top: -2%;
+  width: 91vw;
+  left: -15px;
+  position: relative;
+  float: left;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 1);
+  z-index: 100;
+
+  font-size: 30px;
+  line-height: 40px;
+  color: #0186fe;
+  padding-top: 6px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.triangles {
+  margin-top: -3.5%;
+}
+
+.triangle-l {
+  border-color: transparent burlywood transparent transparent;
+  border-style: solid;
+  border-width: 15px;
+  height: 0px;
+  width: 0px;
+  position: relative;
+  left: -30px;
+  top: 65px;
+  z-index: -1;
+}
+.triangle-r {
+  border-color: transparent transparent transparent burlywood;
+  border-style: solid;
+  border-width: 15px;
+  height: 0px;
+  width: 0px;
+  position: relative;
+  left: 92vw;
+  margin-left: -50px;
+  top: 35px;
+  z-index: -1;
+}
+
+.create button {
+  font-size: 1vw;
+  margin-top: 3%;
+  margin-left: 2%;
+  height: 50px;
+  width: 10vw;
+  border-radius: 15em;
+  cursor: pointer;
+}
+.create .createTask {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 99998;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.send {
+  color: black;
+  float: right;
+  font-size: 1vw;
+  margin-top: -2%;
+  height: 4vh;
+  width: 7vw;
+  cursor: pointer;
+  background-color: #7f9db9;
+}
+
+.datesOfTask {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+}
+
+.datesOfTask h2 {
+  color: black;
+  margin-top: 5%;
+}
+
+.datesOfTask input {
+  font-size: 30px;
+}
+
+.givenTask {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: white;
+  height: 10vh;
+  margin: 2%;
+  width: 85vw;
+  position: relative;
+  float: left;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 1);
+  z-index: 100; /* показываем над всеми элементами */
+
+  font-size: 1vw;
+  line-height: 40px;
+  color: #0186fe;
+  padding-top: 6px;
+
+  gap: 100px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.givenTask textarea {
+  width: 10vw;
+}
+.givenTask:hover {
+  cursor: pointer;
+}
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
+
+.givenTask h3 {
+  margin-left: -500px;
+}
+
+.givenTask i {
+  margin-left: 40px;
+  color: black;
+}
+
+.givenTask button {
+  margin-top: -3px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  font-size: 1vw;
+  height: 8vh;
+  width: 17vw;
+  align-self: center;
+  font-weight: solid;
+  margin-right: 1%;
+  background-color: #65b7ff;
+  color: white;
+}
+
+.myModal {
+  display: none;
+  position: fixed;
+  z-index: 99998;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.myModal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}

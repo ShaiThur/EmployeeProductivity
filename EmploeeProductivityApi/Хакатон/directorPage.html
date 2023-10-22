@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="directorStyles.css" />
+    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/edeb2ab79f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="items" id="containerItems">
+        <div class="userData"></div>
+        <div class="geometrisi">
+          <div class="rectangle">Задания</div>
+          <div class="triangles">
+            <div class="triangle-l"></div>
+            <div class="triangle-r"></div>
+          </div>
+        </div>
+        <div class="create">
+          <button class="createTask" id="createTask">
+            <i class="fa-solid fa-plus"></i>
+            <p>Создать задание</p>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="datesOfTask">
+          <h2>Название</h2>
+          <input name="data" , type="text" />
+          <h2>Описание задачи</h2>
+          <textarea class="break" name="data" cols="40" rows="7"></textarea>
+          <h2>Срок сдачи</h2>
+          <input name="data" , type="date" />
+        </div>
+        <button class="send" id="sendTask">Отправить</button>
+      </div>
+    </div>
+    <div id="Modal" class="myModal">
+      <div class="myModal-content">
+        <span class="close">&times;</span>
+        <div>
+          <h3>Ваша оценка</h3>
+          <input type="numeric" />
+        </div>
+        <button class="send" id="sendTask">Отправить</button>
+      </div>
+    </div>
+    <script src="directorScript.js"></script>
+  </body>
+</html>

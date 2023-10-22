@@ -1,0 +1,14 @@
+D:\EmployeeProductivity\EmploeeProductivityApi\EmployeesContext\bin\Release\net7.0\EmployeesContext.deps.json
+D:\EmployeeProductivity\EmploeeProductivityApi\EmployeesContext\bin\Release\net7.0\EmployeesContext.runtimeconfig.json
+D:\EmployeeProductivity\EmploeeProductivityApi\EmployeesContext\bin\Release\net7.0\EmployeesContext.dll
+D:\EmployeeProductivity\EmploeeProductivityApi\EmployeesContext\bin\Release\net7.0\EmployeesContext.pdb
+D:\EmployeeProductivity\EmploeeProductivityApi\EmployeesContext\obj\Release\net7.0\EmployeesContext.csproj.AssemblyReference.cache
+D:\EmployeeProductivity\EmploeeProductivityApi\EmployeesContext\obj\Release\net7.0\EmployeesContext.GeneratedMSBuildEditorConfig.editorconfig
+D:\EmployeeProductivity\EmploeeProductivityApi\EmployeesContext\obj\Release\net7.0\EmployeesContext.AssemblyInfoInputs.cache
+D:\EmployeeProductivity\EmploeeProductivityApi\EmployeesContext\obj\Release\net7.0\EmployeesContext.AssemblyInfo.cs
+D:\EmployeeProductivity\EmploeeProductivityApi\EmployeesContext\obj\Release\net7.0\EmployeesContext.csproj.CoreCompileInputs.cache
+D:\EmployeeProductivity\EmploeeProductivityApi\EmployeesContext\obj\Release\net7.0\EmployeesContext.dll
+D:\EmployeeProductivity\EmploeeProductivityApi\EmployeesContext\obj\Release\net7.0\refint\EmployeesContext.dll
+D:\EmployeeProductivity\EmploeeProductivityApi\EmployeesContext\obj\Release\net7.0\EmployeesContext.pdb
+D:\EmployeeProductivity\EmploeeProductivityApi\EmployeesContext\obj\Release\net7.0\EmployeesContext.genruntimeconfig.cache
+D:\EmployeeProductivity\EmploeeProductivityApi\EmployeesContext\obj\Release\net7.0\ref\EmployeesContext.dll

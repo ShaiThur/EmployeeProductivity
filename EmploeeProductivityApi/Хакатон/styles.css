@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Rubik+Mono+One&display=swap");
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.mainPage {
+  height: 100%;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Rubik Mono One", monospace;
+  align-items: start;
+  text-align: center;
+  flex-direction: row;
+  justify-content: center;
+  width: 100vw;
+  background: linear-gradient(
+    to right,
+    #0186fe 0%,
+    #0186fe 50%,
+    #ffffff 50%,
+    #ffffff 100%
+  );
+  height: 100vh;
+}
+
+.half {
+  width: 100%;
+  font-size: 36px;
+}
+
+.container .signIn {
+  width: 50%;
+  margin-top: 35px;
+  border: none;
+  justify-self: end;
+  font-size: 100px;
+  font-weight: bold;
+  flex-grow: 1;
+}
+
+.container .reg {
+  width: 50%;
+  margin-top: 35px;
+  border: none;
+  justify-items: start;
+  font-size: 100px;
+  font-weight: bold;
+  flex-grow: 1;
+}
+#leftHalf {
+  background-color: #0186fe;
+  color: #ffffff;
+}
+
+#rightHalf {
+  background-color: #ffffff;
+  color: #0186fe;
+}
+
+.items {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-left: 35%;
+  margin-right: 35%;
+  gap: 30px;
+}
+
+.signInItems {
+  width: 25vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  margin-top: -10%;
+}
+
+.signInItems input {
+  font-size: 300%;
+  border: none;
+  font-family: "Anonymous Pro", monospace;
+}
+
+.regItems {
+  margin-top: -100px;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: end;
+  gap: 50px;
+}
+
+.regItems input {
+  font-size: 40px;
+  border: none;
+  font-family: "Anonymous Pro", monospace;
+}
+
+.btn_registration {
+  font-size: 40px;
+  background-color: white;
+  color: grey;
+  border: none;
+  width: 448px;
+  height: 100px;
+  text-align: center;
+  font-family: "Anonymous Pro", monospace;
+}
+
+.btn_signIn {
+  font-size: 40px;
+  background-color: white;
+  color: grey;
+  border: none;
+  width: 400px;
+  height: 100px;
+  font-family: "Anonymous Pro", monospace;
+  text-align: center;
+}
+
+.checkbox {
+  margin-right: 278px;
+}
+.checkbox input {
+  transform: scale(1.6);
+}
+.checkbox label {
+  color: white;
+}
+.regItems select {
+  visibility: hidden;
+}

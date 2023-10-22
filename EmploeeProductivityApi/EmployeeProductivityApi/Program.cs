@@ -16,7 +16,6 @@ namespace EmployeeProductivityApi
             // Add services to the container.
             builder.Services.AddControllers();
             builder.Services.AddEndpointsApiExplorer();
-        #if !DEBUG
             #region authentication 
 
             builder.Services.AddAuthentication(option =>
@@ -47,7 +46,6 @@ namespace EmployeeProductivityApi
                     b => b.MigrationsAssembly(typeof(Program).Assembly.FullName));
             });
             builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
-        #endif
             #region Swagger Configuration
             builder.Services.AddSwaggerGen(swagger =>
             {
