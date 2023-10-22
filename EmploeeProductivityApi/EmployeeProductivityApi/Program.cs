@@ -84,15 +84,14 @@ namespace EmployeeProductivityApi
             #endregion
             var app = builder.Build();
             // Configure the HTTP request pipeline.
-            
             if (app.Environment.IsDevelopment())
             {
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
 
+            app.UseCors(x => x.AllowAnyHeader().AllowAnyMethod().WithOrigins("http://127.0.0.1:5500"));
             app.UseHttpsRedirection();
-
             app.UseAuthentication();
             app.UseAuthorization();
             app.MapControllers();

@@ -15,8 +15,13 @@ namespace EmployeeProductivityApi.Controllers
     [Route("api/[Controlller]")]
     public class RatingController : ControllerBase
     {
-        ScoreRequest request = new ScoreRequest(SeedScore().ToArray());
+        ScoreRequest request;
         Dictionary<int, float> values = new Dictionary<int, float>();
+
+        public RatingController()
+        {
+            request = new ScoreRequest(SeedScore().ToArray());
+        }
 
         [HttpGet]
         [Route("/AllRating")]
